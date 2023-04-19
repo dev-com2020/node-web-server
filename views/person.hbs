@@ -5,10 +5,8 @@
     <title>Person</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
-    <p>{{message}}</p>
-    <footer>
-        <p>Copyright {{currentYear}}</p>
-    </footer>
+{{> header}}
+    <p>{{screamIt message}}</p>
+{{> footer}}
   </body>
 </html>
